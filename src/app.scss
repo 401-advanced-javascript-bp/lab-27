@@ -1,0 +1,27 @@
+#root {
+    width: 960px;
+    background-color: blueviolet;
+    margin: auto;
+    section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: gray;
+        width: 100%;
+
+        a.up-clicker {
+            text-decoration: none;
+            margin: 10px;
+            color: black;
+        
+        }
+        a.down-clicker {
+            text-decoration: none;
+            margin: 10px;
+            color: yellow;
+   
+        }
+    
+    }
+}
